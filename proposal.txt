@@ -11,11 +11,7 @@ L1 Spanish speakers will record 30 words.
 L1 and L2 Spanish speakers will complete a survey for biographical data (information collected below).
 L2 Spanish learners will be exposed to 30 words aurally with English translations appearing on screen. They will hear each item three times. Afterwards, they will see the English words and must record themselves saying the corresponding Spanish translation.
 
-The 15 words will be taken from the Cervantes Institute (https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/indice.htm).
-
-High proficiency words (B2/C1/C2):
-
-Low proficiency words (A1/A2/B1):
+The 15 words will be taken from the Cervantes Institute (https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/indice.htm). Words are recorded in materials>vocabulary.
 
 Information from L1 Spanish speakers:
 >country of origin
