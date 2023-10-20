@@ -1,2 +1,2 @@
-literature: background research on vocabulary acquisition and dialect exposure in L2 Spanish speakers.
+literature: background research on vocabulary acquisition and L2 Spanish speakers exposed to multiple people speaking.
 materials: materials for this experiment.

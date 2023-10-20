@@ -1,8 +1,11 @@
-Hypothesis
-L2 Spanish learners exposed to multiple dialects will acquire vocabulary more accurately than those exposed to only one dialect. This will be a function of proficiency, will low-proficiency speakers will see less of an effect from exposure to multiple dialects, and high-proficiency speakers will see more of an effect.
+Rationale
+In the traditional classroom setting, language learners are typically exposed to only one native speaker: their teacher. This study investigates the impact of hearing multiple native speakers produce vocabulary to determine if one-vs-many speakers impacts their vocabulary acquisition. 
 
-H1:	L2 Spanish learners will acquire more vocabulary when exposed to multiple dialects.
-	H0: 	L2 Spanish learners will acquire the same amount of vocabulary when exposed to multiple dialects as opposed to one dialects.
+Hypothesis
+L2 Spanish learners exposed to multiple people speaking will acquire vocabulary more accurately than those exposed to only one person. This will be a function of proficiency, will low-proficiency speakers will see less of an effect from exposure to multiple people, and high-proficiency speakers will see more of an effect.
+
+H1:	L2 Spanish learners will acquire more vocabulary when exposed to multiple people.
+	H0: 	L2 Spanish learners will acquire the same amount of vocabulary when exposed to multiple people as opposed to one person.
 H2:	The acquisition will be more pronounced in high proficiency learners.
 	H0:	the acquisition will be the same for high and low proficiency learners.
 
@@ -15,6 +18,7 @@ The 15 words will be taken from the Cervantes Institute (https://cvc.cervantes.e
 
 Information from L1 Spanish speakers:
 >country of origin
+>city of origin
 >age
 >gender
 
@@ -22,19 +26,20 @@ Information from L2 Spanish speakers:
 >age
 >gender
 >Spanish proficiency (DELE and LexTale)
+>experience with the dialect of L1 speakers
 
 Data analysis:
 
 H1
-We expect there to be a relationship between item accuracy and exposure to one or multiple dialects. We expect that the group exposed to multiple dialects will have higher accuracy.
+We expect there to be a relationship between item accuracy and exposure to one or multiple people. We expect that the group exposed to multiple people will have higher accuracy.
 Model:
 Mixed effects general linear model:
 	glmer(
-		formula = accuracy ~ many_dialects + one_dialect + (1 + item|participant)
+		formula = accuracy ~ many_persons + one_person + (1 + item|participant)
 		data = df
 		family = 'identity')
 	)
-	Fixed effects = dialect (categorical)
+	Fixed effects = many_vs_one (categorical)
 	Random effects = participant, item
 
 H2
@@ -42,10 +47,14 @@ We expect there to be an interaction between proficiency and exposure to one or 
 Model:
 Mixed effects logistic model:
 	glmer(
-		forumla = accuracy ~ profiency + dialect + proficiency*dialect
+		forumla = accuracy ~ profiency + many_vs_one + proficiency*many_vs_one
 		data = df
 		family = 'binomial'
 	)
-	Fixed effects:	Spanish proficiency (continuous), dialect (categorical), accuracy (categorical)
+	Fixed effects:	Spanish proficiency (continuous), many_vs_one (categorical), accuracy (categorical)
 	Random effects:	participant, item
-	Interactions: proficiency*exposure (we expect an interaction because we believe that higher proficiency folks will be able to pay more attention to salient dialect differences)
+	Interactions: proficiency*many_vs_one
+
+Future Research
+>One vs Many dialects
+>Exposure to L2 speakers (low proficiency vs high proficiency)
