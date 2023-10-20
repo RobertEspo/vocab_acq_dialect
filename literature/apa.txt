@@ -1,0 +1,64 @@
+@article{sung2016exposure,
+  title={Exposure to multiple accents of English in the English Language Teaching classroom: from second language learners' perspectives},
+  author={Sung, Chit Cheung Matthew},
+  journal={Innovation in Language Learning and Teaching},
+  volume={10},
+  number={3},
+  pages={190--205},
+  year={2016},
+  publisher={Taylor \& Francis}
+}
+
+@article{kennedy2008intelligibility,
+  title={Intelligibility, comprehensibility, and accentedness of L2 speech: The role of listener experience and semantic context},
+  author={Kennedy, Sara and Trofimovich, Pavel},
+  journal={Canadian Modern Language Review},
+  volume={64},
+  number={3},
+  pages={459--489},
+  year={2008},
+  publisher={University of Toronto Press}
+}
+
+@article{wiener2020explicit,
+  title={Do explicit instruction and high variability phonetic training improve nonnative speakers’ Mandarin tone productions?},
+  author={Wiener, Seth and Chan, Marjorie KM and Ito, Kiwako},
+  journal={The Modern Language Journal},
+  volume={104},
+  number={1},
+  pages={152--168},
+  year={2020},
+  publisher={Wiley Online Library}
+}
+
+@article{ockey2016one,
+  title={From one to multiple accents on a test of L2 listening comprehension},
+  author={Ockey, Gary J and French, Robert},
+  journal={Applied Linguistics},
+  volume={37},
+  number={5},
+  pages={693--715},
+  year={2016},
+  publisher={Oxford University Press}
+}
+
+@article{barcroft2005effects,
+  title={Effects of acoustic variability on second language vocabulary learning},
+  author={Barcroft, Joe and Sommers, Mitchell S},
+  journal={Studies in Second Language Acquisition},
+  volume={27},
+  number={3},
+  pages={387--414},
+  year={2005},
+  publisher={Cambridge University Press}
+}
+
+@article{buckler2017input,
+  title={Input matters: Speed of word recognition in 2-year-olds exposed to multiple accents},
+  author={Buckler, Helen and Oczak-Arsic, Sara and Siddiqui, Nazia and Johnson, Elizabeth K},
+  journal={Journal of Experimental Child Psychology},
+  volume={164},
+  pages={87--100},
+  year={2017},
+  publisher={Elsevier}
+}
